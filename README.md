@@ -12,6 +12,12 @@
 
 `PBSDK.setPlayedGameState(game, score);`
 
+## SDK for javascript
+
+```
+https://jscdn.pbapp.net/sdk.min.js
+```
+
 ## Setup JS Library
 
 FILE: index.html
@@ -29,6 +35,8 @@ FILE: index.html
     <button onclick="setPlayedGameState('MyGame', 200)">
       Set PlayedGame state
     </button>
+
+    <!-- load Playbasis HTML5 game integration SDK -->
     <script src="https://jscdn.pbapp.net/sdk.min.js"></script>
 
     <script src="yourHTML5Game.js"></script>
@@ -64,3 +72,4 @@ https://YOUR_GAME
 ```
 
 Please contact Playbasis representative for your test account
+or contact support@playbasis.com
